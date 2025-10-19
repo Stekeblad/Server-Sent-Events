@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "episerver.net.cli": {
+      "version": "2.0.0",
+      "commands": [
+        "dotnet-episerver"
+      ],
+      "rollForward": true
+    }
+  }
+}

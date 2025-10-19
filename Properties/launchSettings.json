@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "PluginWithServerSentEvents": {
+        "commandName": "Project",
+        "launchBrowser": true,
+        "applicationUrl": "http://localhost:5000",
+        "launchUrl": "episerver/admintools/importer",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+    }
+  }
+}
