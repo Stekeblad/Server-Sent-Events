@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/AdminToolsLayout.cshtml";
+    ViewBag.Title = "Data importer";
+}
+
+<h1>@ViewBag.Title</h1>
+
+@* 
+ * data-sseAppendLog="false" only shows the latest message in event list
+ * data-sseAppendLog="true" adds a new line for every message
+*@
+<ol id="sse-events"></ol>
+<form id="sse-form" action="/episerver/admintools/importer" method="post" data-sseAppendLog="true">
+    <input id="sse-submit" type="submit" name="action" value="Import" />
+</form>
